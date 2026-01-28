@@ -1,0 +1,6 @@
+a=list(int(x) for x in input().split())
+k=int(input())
+if k in a:
+    print(a.index(k))
+else:
+    print(-1)
